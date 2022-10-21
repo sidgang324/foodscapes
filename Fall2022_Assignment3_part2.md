@@ -1,4 +1,3 @@
-﻿
 ## **Assignment 3 part 2 (50 pts)**
 ## **due October 25th 2022** 
 
