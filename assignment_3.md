@@ -28,20 +28,18 @@ We have data from OSM to locate all grocery stores, convenience stores, fast-foo
 **Part IIa: Data Science Story (now or more guidelines later based on Part I) (10 pts)**
 
 _Mapping the evolution of 'food deserts' in a Canadian city: Supermarket accessibility in London, Ontario, 1961–2005_
+
 Kristian Larsen & Jason Gilliland (2008)._International Health Geographics._
 
-The above paper is of interest in this project due to its use of network-based GIS methods to investigate the role of spatial and socioeconomic inequalities in accessibility to supermarkets. The authors considered two low-cost modes of travel - walking and public transit - in determining accessibility, looking at the city's cirulation system (e.g., streets, footpaths) and public transit routes in calculating travel distance by the selected modes. Using Network Analyst and ArcGIS, along with census tract, they generated service areas and number of supermarkets within selected areas to assess proximity and density of a food environment.
-
-The methods utilized in the paper would be our best way to analyze food accessibility given our chosen dataset. Larsen and Gilliland had performed their study in 2008, and much of their data was collected through a variety of scattered sources: local business and telephone directories, company websites, phone calls to retailers, site vists, and more. Today, we have access to various APIs and open data that consolidates much of the information on food outlets and census tracts. Although our method of data collection is different from the paper, the type of data and information that we are working with is very similar.
+The above paper is of interest in this project due to its use of network-based GIS methods to investigate the role of spatial and socioeconomic inequalities in accessibility to supermarkets. The authors considered two low-cost modes of travel - walking and public transit - in determining accessibility, looking at the city's circulation system (e.g., streets, footpaths) and public transit routes to calculate travel distance by the selected modes. Using Network Analyst and ArcGIS, along with census tract, they generated service areas and number of supermarkets within selected areas to assess proximity and density within a food environment.
+The methods mentioned in the paper is most applicable for our given dataset. Larsen and Gilliland performed their study in 2008, and much of their data was collected through a variety of scattered sources: local business and telephone directories, company websites, phone calls to retailers, site visits, and more. Today, we have access to various APIs and open data that consolidates much of the information on food outlets and census tracts. Although our method of data collection is different, the type of data and information that we are working with is very similar, making the paper very relevant and useful to our project.
 
 **Part IIb: Data Analysis (more guidelines later based on Part I and IIa) (10 pts)**
 
 Find a data set to work with it and describe it here. Can you supplement the data with a model?
 
-We are working with OSMnx, a package containing geospatial data from OpenStreetMap. OpenStreetMap allows us to work with real-world street networks and identify food outlet locations. We will also be working with GoogleMaps API to further anlayze routing and travel distance.
-
-To examine accessibilty, we will need demographic data, which will be collected from the American Community Survey (ACS).
-
+We are working with OSMnx, a package containing geospatial data from OpenStreetMap. OpenStreetMap allows us to work with real-world street networks and identify food outlet locations. We will also be working with GoogleMaps API to further analyze routing and travel distance.
+To examine accessibility, we will need demographic data, which will be collected from the American Community Survey (ACS).
 At this time, we do not have a model to supplement the data.
 
 **Part III: Visualization (more guidelines later based on Part I - III)** 
